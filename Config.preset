@@ -9,12 +9,10 @@
 RequireAdmin
 
 ### Chocolatey ###
-
 InstallChoco
 InstallChocoPkgs
 
 ### Host File ###
-
 HostFile
 
 ### Auxiliary Functions ###
