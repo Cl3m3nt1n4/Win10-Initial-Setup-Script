@@ -57,11 +57,11 @@ SetUACHigh                      # SetUACLow
 DisableAdminShares              # EnableAdminShares
 # DisableFirewall               # EnableFirewall
 HideDefenderTrayIcon            # ShowDefenderTrayIcon
-DisableDefender                 # EnableDefender
+EnableDefender					# DisableDefender                 
 DisableDefenderCloud            # EnableDefenderCloud
-DisableCtrldFolderAccess        # EnableCtrldFolderAccess       
-DisableCIMemoryIntegrity        # EnableCIMemoryIntegrity       
-DisableDefenderAppGuard         # EnableDefenderAppGuard        
+EnableCtrldFolderAccess  		# DisableCtrldFolderAccess             
+EnableCIMemoryIntegrity	    	# DisableCIMemoryIntegrity               
+EnableDefenderAppGuard 			# DisableDefenderAppGuard               
 HideAccountProtectionWarn       # ShowAccountProtectionWarn
 DisableDownloadBlocking         # EnableDownloadBlocking
 DisableScriptHost               # EnableScriptHost
@@ -146,7 +146,7 @@ SetWinXMenuPowerShell           # SetWinXMenuCmd
 SetControlPanelCategories       # SetControlPanelSmallIcons     # SetControlPanelLargeIcons     
 DisableShortcutInName           # EnableShortcutInName
 HideShortcutArrow               # ShowShortcutArrow
-SetVisualFXPerformance          # SetVisualFXAppearance
+# SetVisualFXPerformance        # SetVisualFXAppearance
 # EnableTitleBarColor           # DisableTitleBarColor
 SetAppsDarkMode                 # SetAppsLightMode
 SetSystemDarkMode               # SetSystemLightMode            
@@ -218,8 +218,8 @@ DisableXboxFeatures             # EnableXboxFeatures
 DisableAdobeFlash               # EnableAdobeFlash
 DisableEdgePreload              # EnableEdgePreload
 DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
-DisableIEFirstRun               # EnableIEFirstRun
-DisableFirstLogonAnimation      # EnableFirstLogonAnimation
+# DisableIEFirstRun             # EnableIEFirstRun
+# DisableFirstLogonAnimation    # EnableFirstLogonAnimation
 DisableMediaSharing             # EnableMediaSharing
 DisableMediaOnlineAccess        # EnableMediaOnlineAccess
 # EnableDeveloperMode           # DisableDeveloperMode
@@ -235,7 +235,7 @@ UninstallHyperV                 # InstallHyperV
 InstallSSHClient                # UninstallSSHClient              
 UninstallSSHServer              # InstallSSHServer              
 UninstallTelnetClient           # InstallTelnetClient           
-# InstallNET23                  # UninstallNET23
+InstallNET23                    # UninstallNET23
 SetPhotoViewerAssociation       # UnsetPhotoViewerAssociation
 AddPhotoViewerOpenWith          # RemovePhotoViewerOpenWith
 # UninstallPDFPrinter           # InstallPDFPrinter
