@@ -1,0 +1,21 @@
+7zip
+adobereader|--params "/NoUpdates"
+choco-cleaner|--params "/NOTASK:TRUE"
+chocolateygui
+citrix-workspace
+discord
+Firefox|--params "/l:en-US /NoTaskbarShortcut /NoDesktopShortcut /NoAutoUpdate"
+foobar2000
+gimp
+kdenlive 
+keepass 
+microsoft-teams.install
+microsoft-windows-terminal
+mRemoteNG
+notepadplusplus
+powertoys
+spotify
+steam
+vlc
+vscodium
+office365business|--params "/productid:O365ProPlusRetail /language:en-US"
