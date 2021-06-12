@@ -27,10 +27,10 @@ DisableBiometrics               # EnableBiometrics
 # DisableCamera                 # EnableCamera
 # DisableMicrophone             # EnableMicrophone
 DisableErrorReporting           # EnableErrorReporting
-SetP2PUpdateDisable             # SetP2PUpdateLocal           # SetP2PUpdateInternet          
+SetP2PUpdateLocal		# SetP2PUpdateDisable                        # SetP2PUpdateInternet          
 DisableDiagTrack                # EnableDiagTrack
 DisableWAPPush                  # EnableWAPPush
-# EnableClearRecentFiles        # DisableClearRecentFiles
+EnableClearRecentFiles          # DisableClearRecentFiles
 DisableRecentFiles              # EnableRecentFiles
 
 ### UWP Privacy Tweaks ###
@@ -57,11 +57,11 @@ SetUACHigh                      # SetUACLow
 DisableAdminShares              # EnableAdminShares
 # DisableFirewall               # EnableFirewall
 HideDefenderTrayIcon            # ShowDefenderTrayIcon
-EnableDefender					# DisableDefender                 
+EnableDefender			# DisableDefender                 
 DisableDefenderCloud            # EnableDefenderCloud
-EnableCtrldFolderAccess  		# DisableCtrldFolderAccess             
+DisableCtrldFolderAccess	# EnableCtrldFolderAccess             
 EnableCIMemoryIntegrity	    	# DisableCIMemoryIntegrity               
-EnableDefenderAppGuard 			# DisableDefenderAppGuard               
+DisableDefenderAppGuard         # EnableDefenderAppGuard
 HideAccountProtectionWarn       # ShowAccountProtectionWarn
 DisableDownloadBlocking         # EnableDownloadBlocking
 DisableScriptHost               # EnableScriptHost
@@ -84,7 +84,7 @@ DisableNetBIOS                  # EnableNetBIOS
 # DisableLLDP                   # EnableLLDP
 # DisableLLTD                   # EnableLLTD
 # DisableMSNetClient            # EnableMSNetClient
-# DisableQoS                    # EnableQoS
+DisableQoS                      # EnableQoS
 # DisableIPv4                   # EnableIPv4
 # DisableIPv6                   # EnableIPv6
 # DisableNCSIProbe              # EnableNCSIProbe
@@ -110,7 +110,7 @@ EnableDefragmentation           # DisableDefragmentation
 DisableSuperfetch               # EnableSuperfetch
 # DisableIndexing               # EnableIndexing
 # DisableRecycleBin             # EnableRecycleBin
-EnableNTFSLongPaths             # DisableNTFSLongPaths
+# EnableNTFSLongPaths           # DisableNTFSLongPaths
 # DisableNTFSLastAccess         # EnableNTFSLastAccess
 SetBIOSTimeUTC                  # SetBIOSTimeLocal
 # DisableHibernation            # EnableHibernation             
@@ -121,10 +121,10 @@ EnableAutoRebootOnCrash         # DisableAutoRebootOnCrash
 
 ### UI Tweaks ###
 # DisableActionCenter           # EnableActionCenter
-DisableLockScreen               # EnableLockScreen
+# DisableLockScreen             # EnableLockScreen
 # DisableLockScreenRS1          # EnableLockScreenRS1
 HideNetworkFromLockScreen       # ShowNetworkOnLockScreen
-HideShutdownFromLockScreen      # ShowShutdownOnLockScreen
+# HideShutdownFromLockScreen    # ShowShutdownOnLockScreen
 EnableLockScreenBlur            # DisableLockScreenBlur
 # DisableAeroShake              # EnableAeroShake
 DisableAccessibilityKeys        # EnableAccessibilityKeys
@@ -166,7 +166,7 @@ ShowHiddenFiles                 # HideHiddenFiles
 # ShowSuperHiddenFiles          # HideSuperHiddenFiles
 # ShowEmptyDrives               # HideEmptyDrives
 # ShowFolderMergeConflicts      # HideFolderMergeConflicts
-EnableNavPaneExpand             # DisableNavPaneExpand
+# EnableNavPaneExpand           # DisableNavPaneExpand
 # ShowNavPaneAllFolders         # HideNavPaneAllFolders
 # ShowNavPaneLibraries          # HideNavPaneLibraries
 # EnableFldrSeparateProcess     # DisableFldrSeparateProcess
@@ -212,7 +212,7 @@ DisableOneDrive                 # EnableOneDrive
 UninstallOneDrive               # InstallOneDrive
 UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
-UninstallWindowsStore           # InstallWindowsStore
+# UninstallWindowsStore         # InstallWindowsStore
 DisableXboxFeatures             # EnableXboxFeatures
 # DisableFullscreenOptims       # EnableFullscreenOptims
 DisableAdobeFlash               # EnableAdobeFlash
@@ -235,8 +235,8 @@ UninstallHyperV                 # InstallHyperV
 InstallSSHClient                # UninstallSSHClient              
 UninstallSSHServer              # InstallSSHServer              
 UninstallTelnetClient           # InstallTelnetClient           
-InstallNET23                    # UninstallNET23
-SetPhotoViewerAssociation       # UnsetPhotoViewerAssociation
+#InstallNET23                   # UninstallNET23
+# SetPhotoViewerAssociation     # UnsetPhotoViewerAssociation
 AddPhotoViewerOpenWith          # RemovePhotoViewerOpenWith
 # UninstallPDFPrinter           # InstallPDFPrinter
 UninstallXPSPrinter             # InstallXPSPrinter
@@ -247,7 +247,7 @@ UninstallFaxAndScan             # InstallFaxAndScan
 # HideServerManagerOnLogin      # ShowServerManagerOnLogin
 # DisableShutdownTracker        # EnableShutdownTracker
 # DisablePasswordPolicy         # EnablePasswordPolicy
-EnableCtrlAltDelLogin           # DisableCtrlAltDelLogin        
+# DisableCtrlAltDelLogin        # EnableCtrlAltDelLogin    
 # DisableIEEnhancedSecurity     # EnableIEEnhancedSecurity
 # EnableAudio                   # DisableAudio
 

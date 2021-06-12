@@ -201,7 +201,7 @@ $domains = @(
     "client.wns.windows.com"
     "wdcp.microsoft.com"                       # may cause issues with Windows Defender Cloud-based protection
     #"dns.msftncsi.com"                         # This causes Windows to think it doesn't have internet
-    "storeedgefd.dsx.mp.microsoft.com"         # breaks Windows Store
+    #"storeedgefd.dsx.mp.microsoft.com"         # breaks Windows Store
     "wdcpalt.microsoft.com"
     "settings-ssl.xboxlive.com"
     "settings-ssl.xboxlive.com-c.edgekey.net"

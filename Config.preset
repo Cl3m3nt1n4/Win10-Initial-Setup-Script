@@ -8,10 +8,6 @@
 ### Require administrator privileges ###
 RequireAdmin
 
-### Chocolatey ###
-InstallChoco
-InstallChocoPkgs
-
 ### Host File ###
 HostFile
 
